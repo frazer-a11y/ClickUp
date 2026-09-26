@@ -144,7 +144,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
         </div>
 
         {/* Admin */}
-        {/* <div className="mt-4 text-center relative z-10">
+        <div className="mt-4 text-center relative z-10">
           <Link
             to="/admin"
             className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-300 transition"
@@ -152,7 +152,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
             <ShieldCheck className="w-3.5 h-3.5" />
             Admin Login
           </Link>
-        </div> */}
+        </div>
       </div>
     </div>
   );
